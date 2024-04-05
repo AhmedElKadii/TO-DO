@@ -26,7 +26,8 @@ void ClearFile(const std::string& path)
     if (!file.is_open()) {
         std::cerr << "Error opening file for clearing: " << path << std::endl;
     }
-    file.close();}
+    file.close();
+}
 
 void SaveFile(const std::string& text, const std::string& path)
 {
